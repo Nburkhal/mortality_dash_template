@@ -12,6 +12,18 @@ gunicorn = "*"
 plotly = "*"
 jupyter = "*"
 pandas = "*"
+scikit-learn = "*"
+category-encoders = "*"
+dash-daq = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+xgboost = {file = "https://files.pythonhosted.org/packages/96/84/4e2cae6247f397f83d8adc5c2a2a0c5d7d790a14a4c7400ff6574586f589/xgboost-0.90.tar.gz"}
+eli5 = "*"
+pdpbox = "*"
+shap = "*"
+requests = "*"
+io = "*"
 
 [requires]
 python_version = "3.7"
