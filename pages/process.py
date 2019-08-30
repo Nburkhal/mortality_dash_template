@@ -214,10 +214,11 @@ column1 = dbc.Col(
 
             ```python
             # Get ROC AUC score for the model
-            y_pred_proba = model.predict_proba(X_val_encoded)[:,1]
-            roc_auc_score(y_val, y_pred_proba)
+            X_test_encoded = encoder.transform(X_test)
+            test_pred_proba = model.predict_proba(X_test_encoded)[:,1]
+            roc_auc_score(y_test, test_pred_proba)
 
-            >>>0.737818456968959
+            >>>0.7381663733777781
             ```
 
             Our classification report for the model was as follows:
