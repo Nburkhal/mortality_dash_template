@@ -133,7 +133,7 @@ column1 = dbc.Col(
 
 
     ],
-    md=4,
+
 )
 
 
